@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Simple level</title>
+</head>
+<body>
+    <h2 style="color:#ffffff">Задача  №1</h2>
+    <div>Напишите консольную программу, в которую пользователь вводит с клавиатуры 
+        два числа. А программа сранивает два введенных числа и выводит на консоль 
+        результат сравнения 
+        (два числа равны, первое число больше второго или первое число меньше второго).
+        <hr>
+    </div>
+    <div align="center">Решение:
+        <div></div>
+        <div align="left">Console.Write("Please, enter your number 1: ");</div>
+        <div align="left">int number1 = Convert.ToInt32(Console.ReadLine());</div>
+        <div align="left">Console.Write("Please, enter your number 2: ");</div>
+        <div align="left">int number2 = Convert.ToInt32(Console.ReadLine());</div>
+        <div align="left">void Comparison(int number1, int number2)</div>
+        <div align="left">{</div>
+            <div align="left">____if(number1 > number2)</div>
+            <div align="left">____{</div>
+                <div align="left">________Console.Write($"{number1} больше чем {number2}");</div>
+                <div align="left">____}</div>
+                <div align="left">____else if(number1 < number2)</div>
+                <div align="left">____{</div>
+                    <div align="left">________Console.Write($"{number2} больше чем {number1}");</div>
+                    <div align="left">____}</div>
+                    <div align="left">____else if(number1 == number2)</div>
+                    <div align="left">____{</div>
+                        <div align="left">________Console.Write($"{number1} равен {number2}");</div>
+                        <div align="left">____}</div>
+                        <div align="left">}</div>
+                        <div align="left">Comparison(number1, number2);</div>
+    </div>
+</body>
+</html>

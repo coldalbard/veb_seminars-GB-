@@ -1,0 +1,21 @@
+h1 {
+    
+    text-align: center;
+}
+h2 {
+    background-color: #3500D3;
+    text-align: center;
+}
+body{
+    background-color: #282828;
+}
+img {
+    width: 500px;
+    height: 300px;
+    margin: 10px auto 20px;
+    display: block;
+}
+div {
+    background-color: white;
+    text-decoration-color: black;
+}
